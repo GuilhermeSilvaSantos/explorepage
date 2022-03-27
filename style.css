@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body {
+
+font-family: 'Raleway', sans-serif;
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+
+}
+
+header {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#title{
+	flex-direction: column;
+	line-height: 10px;
+}
+
+li{
+
+	display: inline-block;
+	margin: 20px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 20px;
+}
+
+a{
+	color: black;
+
+	
+}
+
+a:hover{
+	color: rgb(153, 102, 204);
+	transition: 0.3s all;
+}
+
+#btn{
+	border: 2px solid rgb(153, 102, 204);
+	padding: 10px;
+	border-radius: 20px;
+
+
+}
+
+h1{
+	font-weight: 200px;
+
+}
+
+main{
+
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+h2 {
+
+	font-size: 56px;
+	line-height: 9px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+img {
+
+	width: 850px;
+
+}
+
+span {
+
+color: rgb(153, 102, 204);
+}
+
+p{
+ font-family: 'PT Sans Narrow', sans-serif;
+}
+
+form{
+
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+	form [type="submit"]{
+	height: 45px;
+	width: 75%;
+	background-color: rgb(153, 102, 204);
+	color: white;
+	font-weight: bold;
+
+	}
+
+input{
+
+	margin-top: 20px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	border: none;
+	font-size: 15px; 
+}
